@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rejiane Fredrez">
+    <link rel="icon" type="image/png" href="img/icon-woman.png" />
+    <title>Rejiane</title>
+    <link id="theme" rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__navbar">
+            <!-- Logo -->
+            <a href="#intro" class="logo">REEZ</a>
+            <!-- Hamburger icon -->
+            <input class="header__menu-checkbox" type="checkbox" id="side-menu" />
+            <label class="header__menu-icon" for="side-menu"><span class="header__icon-line"></span></label>
+            <!-- Menu -->
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#aboutMe">Sobre</a> </li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#qualification">Qualificação</a></li>
+                    <li><button class="btn-theme-mode" onclick="toggleTheme()"> <img src="img/day.png" alt="change theme"></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="intro">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="intro__container">
+                <div class="intro__presentation">
+                    <p>Olá, eu sou</p>
+                    <h1>Rejiane Fredrez</h1>
+                    <h2>desenvolvedora front-end</h2>
+                    <button class="btn intro__button" onclick="
+                        location.href='https://www.linkedin.com/in/rejianef'" type=" button">
+                        Linkedin</button>
+                </div>
+                <div class="intro-image">
+                    <img src="img/intro-image-freepik.png" class="animation-up-down"
+                        alt="Young woman uses computer to work - designed by Freepik">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="aboutMe" class="about__section">
+            <div class="row">
+                <h1 class="title">Sobre Mim</h1>
+                <br>
+                <div class="about__information">
+                    <p>Olá, eu me chamo <strong>Rejiane Fredrez</strong>. Nasci em São Marcos, Rio Grande do Sul.</p>
+                    <p>Eu estou cursando <b>Criação Digital</b> na Universidade de Caxias do Sul.</p>
+                    <p>Sou desenvolvedora web na empresa <strong>Promob | 2020.</strong></p>
+                    <br>
+                    <p>Gosto de ler livros, assistir filmes, escutar músicas, séries, jogar videogames, viajar e fazer
+                        artesanato.</p>
+                    <p>Tenho bastante interesse na área 3D estou fazendo cursos na area de modelagem, animação e
+                        programação
+                        criativa. </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills__section">
+            <div class="row">
+                <h1 class="title">Habilidades</h1>
+
+                <div class="skills__container">
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/html-5.png" alt="HTML-5">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/css.png" alt="CSS">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/js.png" alt="Javascript">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/typescript.png" alt="Typescript">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/reactjs.png" alt="Reactjs">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/sass.png" alt="Sass">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/c-sharp.png" alt="C-sharp">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__img" src="./img/Microsoft_.NET_logo.png" alt="Microsoft .NET">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__image-big" src="./img/mongodb.png" alt="MongoDB">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__image-big" src="./img/nodejs.png" alt="Nodejs">
+                    </div>
+                    <div class="skills__box">
+                        <img class="skills__box__image-big" src="./img/blender.png" height="200px" alt="Blender">
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="qualification" class=" qualification__section">
+            <div class="row">
+                <h1 class="title">Qualificação</h1>
+                <div class="qualification__grid">
+                    <div class="qualification__container">
+                        <h1>Educação</h1>
+                        <div class="qualification__experience">
+                            <div class="qualification__year">
+                                <p>2019 - Presente</p>
+
+                            </div>
+                            <div class="qualification__description">
+                                <h4 class="text-primary">Bacharelado Criação Digital </h4>
+                                <h5 class="text-secondary">Universidade de Caxias do Sul</h5>
+                                <p>Áreas da Indústria Criativa: desenvolvimento de Software, modelagem 3D, vídeo e
+                                    áudio.</p>
+                            </div>
+                        </div>
+                        <div class="qualification__experience">
+                            <div class="qualification__year">
+                                <p>2015 - 2016</p>
+
+                            </div>
+                            <div class="qualification__description">
+                                <h4 class="text-primary">Técnico em Marketing</h4>
+                                <h5 class="text-secondary">Senac RS</h5>
+                                <p>Conhecimento básico sobre estratégias e táticas da gestão mercadológica para a
+                                    entrega de
+                                    valor na troca de ofertas para os consumidores. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__container">
+                        <h1>Experiência</h1>
+                        <div class="qualification__experience">
+                            <div class="qualification__year">
+                                <p>2018 - Presente</p>
+                            </div>
+                            <div class="qualification__description">
+                                <h4 class="text-primary">Desenvolvedora de Software</h4>
+                                <h5 class="text-secondary">Promob Software Solutions | A 2020 Company</h5>
+                                <p>Desenvolvimento de um software de arquitetura e design em 3D online, trabalho com
+                                    tecnologias front-end e back-end.</p>
+                            </div>
+                        </div>
+                        <div class="qualification__experience">
+                            <div class="qualification__year">
+                                <p>2016 - 2018</p>
+                            </div>
+                            <div class="qualification__description">
+                                <h4 class="text-primary">Freelancer Desenvolvedora Front-End</h4>
+                                <h5 class="text-secondary">Freelancer</h5>
+                                <p>Desenvolvimento de páginas web.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer id="footer" class="footer__section">
+        <div class="row">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <a href="#intro" class="logo">REEZ</a>
+                    <p>Web Developer</p>
+                    <p>Email: rejifredrez@ucs.br</p>
+                </div>
+                <div class="footer__credits">
+                    <h6>Imagens: </h6>
+                    <p>
+                        <a href="https://www.freepik.com">Designed by Jcomp - Freepik.com</a>
+                    </p>
+                    <p>
+                        <a href="www.flaticon.com">Icon made by Pixel perfect from www.flaticon.com</a>
+                    </p>
+                    <p>
+                        <a href="www.flaticon.com">icons created by Freepik - Flaticon</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <p class="footer__my">Rejiane Fredrez | 2022</p>
+        </div>
+
+
+
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
